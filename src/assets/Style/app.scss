@@ -1,0 +1,46 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ 
+ @import './statics.scss';
+
+ @import './mediaquery.scss';
+
+ @mixin size1367{
+    @media screen and (max-width:1367px){
+        @content
+    }
+ }
+
+ @mixin size900{
+    @media screen and (max-width:900px){
+        @content
+    }
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  
+ 
+ 
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+}
+
+body{
+    background: $color1;
+}
+
+.disableBtn{
+    color: $color6 !important;
+    background-color: rgb(237, 237, 237);
+    cursor: not-allowed !important;
+}
