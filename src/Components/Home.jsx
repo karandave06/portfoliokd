@@ -3,7 +3,7 @@ import me from  "../assets/images/avtar-removebg-preview.png"
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
-import resume from '../assets/Karan Dave.pdf'
+import resume from '../assets/Resume Karan.pdf'
  
 
 const Home = () => {
