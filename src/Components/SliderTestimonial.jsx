@@ -26,13 +26,17 @@ const SliderTestimonial = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-        <Card name={'Hena'} src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRstAt2crgsDM6AxDAHaxc0BR5hQARs2biDbg&usqp=CAU'}/>
+        <Card name={'Hena'} feedback={'Im forever grateful to Karan for their expertise and unwavering support on my journey to success'} 
+        src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRstAt2crgsDM6AxDAHaxc0BR5hQARs2biDbg&usqp=CAU'}/>
         </SwiperSlide>
         <SwiperSlide>
-        <Card name={'Justin'} src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJU-HMUetyBcz6z4rd__kL6EQ-sFof4_Ixg&usqp=CAU'}/>
+        <Card name={'Justin'}
+        feedback={'Karan has been an incredible mentor and has positively impacted every aspect of my life.'}
+         src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJU-HMUetyBcz6z4rd__kL6EQ-sFof4_Ixg&usqp=CAU'}/>
         </SwiperSlide>
         <SwiperSlide>
-        <Card name={'Shalena'} src={'https://cdn.wallpapersafari.com/7/26/NDz5C2.jpg'}/>
+        <Card name={'Shalena'}
+        feedback={'Thanks to Karan, I achieved my goals and surpassed my own expectations!'} src={'https://cdn.wallpapersafari.com/7/26/NDz5C2.jpg'}/>
         </SwiperSlide>
         
       </Swiper>
