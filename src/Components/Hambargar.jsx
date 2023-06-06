@@ -2,7 +2,7 @@
 
 const Hambargar = ({menueopen,setmenueopen}) => {
   return (
-    <div className={`${menueopen} ?  NavphoneComes : Navphone `}>
+    <div className={`Navphone ${menueopen ? "NavphoneComes" : " "}`}>
 
     <h2>Karan.</h2>
 

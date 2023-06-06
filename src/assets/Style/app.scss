@@ -39,6 +39,12 @@ body{
     background: $color1;
 }
 
+button:focus,
+button:active{
+    
+    background-color: transparent;
+}
+
 .disableBtn{
     color: $color6 !important;
     background-color: rgb(237, 237, 237);
