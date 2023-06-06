@@ -1,5 +1,6 @@
 import "../assets/Style/Home.scss";
 import me from  "../assets/images/avtar-removebg-preview.png"
+import me2 from '../assets/images/Karan_with_cofee-removebg-preview.png'
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
@@ -77,7 +78,7 @@ const Home = () => {
       </section>
 
       <section >
-        <img src={me} alt="Karan"  />
+        <img src={me2} alt="Karan"  />
       </section>
 <a href="#work">
       <BsChevronDown />
