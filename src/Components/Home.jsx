@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
 import resume from '../assets/Resume Karan.pdf'
+import karan from '../assets/images/karan image.png'
  
 
 const Home = () => {
@@ -67,7 +68,7 @@ const Home = () => {
           <div>
             <a target={'blank'} href="mailto:karandave503@gmail.com">Hire Me</a>
 
-            <a href={resume} download={true}> Downolad CV
+            <a href={resume} download={true}> Download CV
             </a>
 
            
@@ -78,7 +79,7 @@ const Home = () => {
       </section>
 
       <section >
-        <img src={me2} alt="Karan"  />
+        <img src={karan} alt="Karan"  />
       </section>
 <a href="#work">
       <BsChevronDown />

@@ -26,7 +26,7 @@ const projects = [
 
   {
     date: "01/05/2023",
-    title: "Port Foliyo",
+    title: "Port Folio",
     description:
       "This is my first portfolio that i created using react",
     url: "https://kd-portfoliyo.vercel.app/",

@@ -26,7 +26,7 @@ const SliderTestimonial = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-        <Card name={'Hena'} feedback={'Im forever grateful to Karan for their expertise and unwavering support on my journey to success'} 
+        <Card name={'Hena'} feedback={'I am forever grateful to Karan for his expertise and unwavering support on my journey to success'} 
         src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRstAt2crgsDM6AxDAHaxc0BR5hQARs2biDbg&usqp=CAU'}/>
         </SwiperSlide>
         <SwiperSlide>

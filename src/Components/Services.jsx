@@ -39,7 +39,7 @@ const Services = () => {
 
 <motion.div className='servicesBox2' whileInView={animations.whileInView} initial={animations.twoandthree}>
     <AiFillIeCircle />
-    <span>Web Davelopment</span>
+    <span>Web Development</span>
 </motion.div>
 
 
@@ -49,13 +49,13 @@ transition={{
 }}
 >
     <AiFillAndroid />
-    <span>App Davelopment</span>
+    <span>App Development</span>
 </motion.div>
 
 
 <motion.div className='servicesBox4' whileInView={animations.whileInView} initial={animations.four}>
     <AiFillWindows />
-    <span>Responsiv Website</span>
+    <span>Responsive Website</span>
 </motion.div>
       </section>
     </div>
