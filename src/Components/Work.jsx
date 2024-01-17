@@ -2,20 +2,19 @@ import "../assets/Style/Work.scss";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import gym from "../../src/assets/images/gym-image.png";
-import portfolio from '../../src/assets/images/portfolio-image.png'
-import ai from '../../src/assets/images/ai-image.png'
-import ramaai from '../../src/assets/images/ramaai.png'
-import crypto from '../../src/assets/images/crypto.png'
-
+import portfolio from "../../src/assets/images/portfolio-image.png";
+import ai from "../../src/assets/images/ai-image.png";
+import ramaai from "../../src/assets/images/ramaai.png";
+import crypto from "../../src/assets/images/crypto.png";
+import youtube from "../../src/assets/images/youtube.png";
 
 const projects = [
   {
-    date: "12/04/2023",
-    title: "GYM",
-    description:
-      "I Created a simple Gym website using react, sass and i also use a AOS for animation",
-    url: "https://gymkd.netlify.app/",
-    imgSrc: gym,
+    date: "12/12/2023",
+    title: "Youtube",
+    description: "I Created Full Stack youtube clone using",
+    url: "https://my-tube-azure.vercel.app/",
+    imgSrc: youtube,
     id: 1,
   },
 
@@ -34,8 +33,7 @@ const projects = [
     title: "Port Folio",
     description: "This is my first portfolio that i created using react",
     url: "https://kd-portfoliyo.vercel.app/",
-    imgSrc:
-      portfolio,
+    imgSrc: portfolio,
     id: 3,
   },
 
@@ -44,8 +42,7 @@ const projects = [
     title: "Crypto tracking app",
     description: "This is crypt",
     url: "https://cryptoapp-h4c35o1tm-karandave06.vercel.app/",
-    imgSrc:
-      crypto,
+    imgSrc: crypto,
     id: 4,
   },
   {
@@ -53,8 +50,7 @@ const projects = [
     title: "Rama Ai",
     description: "Image generating ai ",
     url: "https://rama-ai.vercel.app/",
-    imgSrc:
-      ramaai,
+    imgSrc: ramaai,
     id: 5,
   },
 
@@ -63,9 +59,18 @@ const projects = [
     title: "Gpt 3",
     description: "Beautiful ai website using tailwind css",
     url: "https://gpt3kd.netlify.app/   ",
-    imgSrc:
-      ai,
+    imgSrc: ai,
     id: 6,
+  },
+
+  {
+    date: "12/04/2023",
+    title: "GYM",
+    description:
+      "I Created a simple Gym website using react, sass and i also use a AOS for animation",
+    url: "https://gymkd.netlify.app/",
+    imgSrc: gym,
+    id: 7,
   },
 ];
 

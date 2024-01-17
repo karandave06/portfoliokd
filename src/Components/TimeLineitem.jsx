@@ -23,7 +23,7 @@ const data = [
   },
 
   {
-    name: "JAVA",
+    name: "C++",
     id:6
   },
   {
