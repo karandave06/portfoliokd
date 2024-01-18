@@ -4,7 +4,7 @@ import me2 from '../assets/images/Karan_with_cofee-removebg-preview.png'
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import {BsArrowUpRight, BsChevronDown} from 'react-icons/bs'
-import resume from '../assets/Resume Karan.pdf'
+import resume from '../assets/Karan.pdf'
 import karan from '../assets/images/karan image.png'
  
 
